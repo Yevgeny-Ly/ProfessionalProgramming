@@ -15,8 +15,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let sceneWindow = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: sceneWindow)
         
-        let viewController = ViewController()
-        window?.rootViewController = viewController
+//        let viewController = OpenClosedAnimalViewController()
+//        window?.rootViewController = viewController
         window?.makeKeyAndVisible()
     }
 
